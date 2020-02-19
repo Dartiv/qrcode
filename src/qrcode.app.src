@@ -1,5 +1,5 @@
 {application, qrcode,
- [{description, "An OTP library"},
+ [{description, "Dead simple erlang qrcode generator library"},
   {vsn, "0.1.0"},
   {registered, []},
   {applications,
