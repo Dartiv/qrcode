@@ -1,6 +1,6 @@
 {application, qrcode,
  [{description, "Dead simple erlang qrcode generator library"},
-  {vsn, "0.1.0"},
+  {vsn, "0.1.1"},
   {registered, []},
   {applications,
    [kernel,
