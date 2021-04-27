@@ -37,7 +37,8 @@ static ERL_NIF_TERM encode(ErlNifEnv* env, int argc, const ERL_NIF_TERM argv[])
         return enif_make_badarg(env);
     }
 
-    char text[binary.size];
+    char text[binary.size + 1];
+    memset(text, '\0', sizeof(text));
     strncpy(text, (const char*)binary.data, binary.size);
     // printf("\"%s\"\n", text);
 
