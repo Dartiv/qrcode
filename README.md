@@ -1,7 +1,7 @@
 qrcode
 =====
 
-Dead simple erlang qrcode generator library
+An Erlang library to generate QR codes.
 
 Install
 -----
